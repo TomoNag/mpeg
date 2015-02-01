@@ -117,4 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;style type="text/css"&gt;
+body {
+     color: #0000ff;
+    font-size: 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+&lt;/style&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;
+&lt;/head&gt;
+&lt;body&gt;
+google web fonts
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
 </root>
