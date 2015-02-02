@@ -1,0 +1,24 @@
+﻿<Window x:Class="MovieEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:util="clr-namespace:Util"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="256*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Black"
+                Margin="5"
+                Height="50"
+                BorderThickness="1"
+                Grid.Row="1">
+            <local:MultiSlider x:Name="slider" ValuesChanged="MultiSlider_ValuesChanged" ValueAdded="MultiSlider_ValueAdded" ValueRemoved="MultiSlider_ValueRemoved" />
+        </Border>
+        <Rectangle Name="rectangle1"
+                   Margin="10" />
+    </Grid>
+</Window>

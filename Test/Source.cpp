@@ -49,7 +49,7 @@ int test()
 	}
 }
 
-int main(int argc, char* argv[])
+int mainold(int argc, char* argv[])
 {
 
 

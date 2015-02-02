@@ -327,20 +327,19 @@ namespace WindowsFormsApplication1
             string output = "C:\\test3.avi";
 
 
-            Commands.GetFrame("test.mp4", request_time);
-            request_time++;
-
-            //System.IO.FileStream hStream = new System.IO.FileStream(@"frame.buffer.jpg", System.IO.FileMode.Open);
-            //this.pictureBox1.Image = Image.FromStream(hStream);
-            //hStream.Close();
-            return;
-            //this.Text = Class1.testX("123あいうえお").ToString(); // testX().ToString();
-           
-        
             if (System.IO.File.Exists(input))
             {
                 OpenCV.VideoEditor.test(input, output);
             }
+
+            return;
+
+            Commands.GetFrame("test.mp4", request_time);
+            request_time++;
+
+
+            return;
+
 
             //Class1.video(input, output);
 
